@@ -267,3 +267,42 @@
 	csr pmpaddr13
 	csr pmpaddr14
 	csr pmpaddr15
+
+# Added for backward compatibility (anycore)
+	csr stats
+	csr sup0
+	csr sup1
+	csr epc
+	csr badvaddr
+	csr ptbr
+	csr asid
+	csr count
+	csr compare
+	csr evec
+	csr cause
+	csr status
+	csr hartid
+	csr impl
+	csr fatc
+	csr send_ipi
+	csr clear_ipi
+	csr reset
+	csr tohost
+	csr fromhost
+	csr counth
+	csr uarch0
+	csr uarch1
+	csr uarch2
+	csr uarch3
+	csr uarch4
+	csr uarch5
+	csr uarch6
+	csr uarch7
+	csr uarch8
+	csr uarch9
+	csr uarch10
+	csr uarch11
+	csr uarch12
+	csr uarch13
+	csr uarch14
+	csr uarch15
