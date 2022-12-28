@@ -768,6 +768,7 @@ const struct riscv_opcode riscv_opcodes[] =
 {"csrrc",      0, {"I", 0},   "d,E,Z",  MATCH_CSRRCI, MASK_CSRRCI, match_opcode, INSN_ALIAS },
 {"uret",       0, {"I", 0},   "",     MATCH_URET, MASK_URET, match_opcode, 0 },
 {"sret",       0, {"I", 0},   "",     MATCH_SRET, MASK_SRET, match_opcode, 0 },
+{"sret.old",   0, {"I", 0},   "",     MATCH_SRET_OLD, MASK_SRET_OLD, match_opcode, 0 },
 {"hret",       0, {"I", 0},   "",     MATCH_HRET, MASK_HRET, match_opcode, 0 },
 {"mret",       0, {"I", 0},   "",     MATCH_MRET, MASK_MRET, match_opcode, 0 },
 {"dret",       0, {"I", 0},   "",     MATCH_DRET, MASK_DRET, match_opcode, 0 },

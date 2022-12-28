@@ -247,4 +247,41 @@
   <reg name="mucounteren" bitsize="64"/>
   <reg name="mscounteren" bitsize="64"/>
   <reg name="mhcounteren" bitsize="64"/>
+  <reg name="stats" bitsize="64"/>
+  <reg name="sup0" bitsize="64"/>
+  <reg name="sup1" bitsize="64"/>
+  <reg name="epc" bitsize="64"/>
+  <reg name="badvaddr" bitsize="64"/>
+  <reg name="ptbr" bitsize="64"/>
+  <reg name="asid" bitsize="64"/>
+  <reg name="count" bitsize="64"/>
+  <reg name="compare" bitsize="64"/>
+  <reg name="evec" bitsize="64"/>
+  <reg name="cause" bitsize="64"/>
+  <reg name="status" bitsize="64"/>
+  <reg name="hartid" bitsize="64"/>
+  <reg name="impl" bitsize="64"/>
+  <reg name="fatc" bitsize="64"/>
+  <reg name="send_ipi" bitsize="64"/>
+  <reg name="clear_ipi" bitsize="64"/>
+  <reg name="reset" bitsize="64"/>
+  <reg name="tohost" bitsize="64"/>
+  <reg name="fromhost" bitsize="64"/>
+  <reg name="counth" bitsize="64"/>
+  <reg name="uarch0" bitsize="64"/>
+  <reg name="uarch1" bitsize="64"/>
+  <reg name="uarch2" bitsize="64"/>
+  <reg name="uarch3" bitsize="64"/>
+  <reg name="uarch4" bitsize="64"/>
+  <reg name="uarch5" bitsize="64"/>
+  <reg name="uarch6" bitsize="64"/>
+  <reg name="uarch7" bitsize="64"/>
+  <reg name="uarch8" bitsize="64"/>
+  <reg name="uarch9" bitsize="64"/>
+  <reg name="uarch10" bitsize="64"/>
+  <reg name="uarch11" bitsize="64"/>
+  <reg name="uarch12" bitsize="64"/>
+  <reg name="uarch13" bitsize="64"/>
+  <reg name="uarch14" bitsize="64"/>
+  <reg name="uarch15" bitsize="64"/>
 </feature>
