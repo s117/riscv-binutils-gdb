@@ -150,8 +150,8 @@
 #define ELF_ARCH			bfd_arch_riscv
 #define ELF_TARGET_ID			RISCV_ELF_DATA
 #define ELF_MACHINE_CODE		EM_RISCV
-#define ELF_MAXPAGESIZE			0x1000
-#define ELF_COMMONPAGESIZE		0x1000
+#define ELF_MAXPAGESIZE			0x2000
+#define ELF_COMMONPAGESIZE		0x2000
 
 #define RISCV_ATTRIBUTES_SECTION_NAME ".riscv.attributes"
 
